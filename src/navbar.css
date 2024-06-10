@@ -1,0 +1,64 @@
+.logo{
+    height: 3rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    width: 20%;
+    height: 20%;
+}
+
+.navbar{
+    display: inline;
+    margin-left: 15%;
+    background-color: white;
+    padding: 1%;
+    border-radius: 20px;
+    font-size: 110%;
+}
+.navbar a{
+    color: black;
+    padding: 2%;
+    text-decoration: none;
+}
+.top{
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    top: 2%;
+}
+.dropbtn{
+    background-color: black;
+    color: white;
+    padding: 1%;
+    border: none;
+    cursor: pointer;
+    margin-left: 3%;
+    border-radius: 25px;
+    width: 140px;
+    height: 45px;
+    
+}
+.dropdown{
+    position: relative;
+}
+.content{
+    display: none;
+    position: relative;
+    background-color: black;
+    color: white;
+    min-width: 10%;
+    z-index: 5;
+    top: 100%;
+}
+.content div{
+    padding: 10px 5px;
+}
+.content div:hover{
+    background-color: #0e227e;
+}
+.dropdown:hover .content{
+    display: block;
+}
+.dropdown:hover .dropbtn{
+    background-color: #474885;
+}

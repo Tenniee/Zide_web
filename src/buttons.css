@@ -1,0 +1,31 @@
+.dropdown-wrapper{
+    position: relative;
+    width: 200px;
+}
+.dropdown-wrapper .dropdown{
+    background: #fff;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    font-family: sans-serif;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+}
+ul{
+    background-color: #fff;
+    color: black;
+    list-style: none;
+    margin: 0;
+    font-size: 18px;
+    overflow: hidden;
+    height: 0px;
+    transition: height 0.3s ease;
+    padding: 0;
+}
+ul.active{
+    height: 100px;
+    overflow: auto;
+}
